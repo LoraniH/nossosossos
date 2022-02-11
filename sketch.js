@@ -26,9 +26,9 @@ var imgendgame;
 var imgendgame2;
 
 //telas//
-var tela = 3;
-// 0=menu  1=instruções  2=créditos  3=niveis 4= respostaerrada //
-var nivel = 10;
+var tela = 0;
+// 0=menu  1=instruções  2=créditos  3=niveis 4= resposta errada 5=resposta certa 6=fim de jogo //
+var nivel = 1;
 
 
 //botões//
