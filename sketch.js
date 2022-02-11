@@ -992,6 +992,7 @@ function preload(){
 function setup() {
   createCanvas(650, 450);
   backgroundMusic();
+  userStartAudio();
 }
 
 function draw() {
