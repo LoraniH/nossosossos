@@ -284,7 +284,7 @@ function endgame(){
   textSize(29);
   textFont('cursive');
   text("Você concluiu",xMinNext+60,yMinNext+34);
-  text(" o meu jogo!",xMinNext+65,yMinNext+65)
+  text(" o meu jogo!!",xMinNext+65,yMinNext+65)
  
    if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
       fill("#CBC1F5");
@@ -339,7 +339,7 @@ function fase1(){
   text("Fase 1",278,50);
   textSize(25);
   fill("#000000");
-  text("Qual o nome deste osso?",170,80);
+  text("Qual o nome desse osso?",170,80);
   image(imgfemur,160,100,310,220);
   
   if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
@@ -591,7 +591,7 @@ function fase5(){
   text("Fase 5",278,50);
   textSize(25);
   fill("#000000");
-  text("Qual o nome deste osso?",170,80);
+  text("Qual o nome desse osso?",170,80);
   image(imgradio,160,100,310,220);
   
   if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
