@@ -319,7 +319,7 @@ function wrongSound(){
 function backgroundMusic(){
   backgroundmusic.play();
   backgroundmusic.loop();
-  backgroundmusic.setVolume(0.3)
+  backgroundmusic.setVolume(0.35)
   userStartAudio();
   
 }
