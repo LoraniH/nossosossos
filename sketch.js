@@ -320,6 +320,7 @@ function backgroundMusic(){
   backgroundmusic.play();
   backgroundmusic.loop();
   backgroundmusic.setVolume(0.4)
+  userStartAudio();
   
 }
 
