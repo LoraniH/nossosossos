@@ -306,14 +306,14 @@ function endgame(){
 function correctSound(){
   correctsound.play();
   correctsound.setVolume(0.5)
-  
+  userStartAudio();
   
 }
 
 function wrongSound(){
   wrongsound.play();
   wrongsound.setVolume(0.5)
-  
+  userStartAudio();
 }
 
 function backgroundMusic(){
@@ -328,7 +328,7 @@ function endgameMusic(){
   endgamemusic.play();
   endgamemusic.loop();
   endgamemusic.setVolume(0.4)
-  
+  userStartAudio();
 }
 
 function fase1(){
@@ -992,7 +992,7 @@ function preload(){
 function setup() {
   createCanvas(650, 450);
   backgroundMusic();
-  userStartAudio();
+
 }
 
 function draw() {
