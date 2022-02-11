@@ -306,21 +306,20 @@ function endgame(){
 function correctSound(){
   correctsound.play();
   correctsound.setVolume(0.5)
-  userStartAudio();
+  
   
 }
 
 function wrongSound(){
   wrongsound.play();
   wrongsound.setVolume(0.5)
-  userStartAudio();
+  
 }
 
 function backgroundMusic(){
   backgroundmusic.play();
   backgroundmusic.loop();
-  backgroundmusic.setVolume(0.35)
-  userStartAudio();
+  backgroundmusic.setVolume(0.4)
   
 }
 
@@ -328,7 +327,6 @@ function endgameMusic(){
   endgamemusic.play();
   endgamemusic.loop();
   endgamemusic.setVolume(0.4)
-  userStartAudio();
   
 }
 
