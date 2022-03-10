@@ -24,6 +24,14 @@ let wrongsound;
 let endgamemusic;
 var imgendgame;
 var imgendgame2;
+var imgsacro;
+var imgcalcaneo;
+var imgmaxila;
+var imgcoccix
+var imghioide;
+
+
+
 
 //telas//
 var tela = 0;
@@ -961,6 +969,322 @@ function fase10(){
   
 }
 
+function fase11(){
+  background("#FFE471");
+  textSize(27);
+  fill(10);
+  fill("#7817FF");
+  text("Fase 11",278,50);
+  textSize(25);
+  fill("#000000");
+  text("Qual o nome desse osso?",170,80);
+  image(imgsacro,160,100,310,220);
+  
+  if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB1Fase1,yMinBFase1,larguraB1Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Cóccix",xMinB1Fase1+16,yMinBFase1+30);
+  
+  if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB2Fase1,yMinBFase1,larguraB2Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Ílio",xMinB2Fase1+31,yMinBFase1+30);
+  
+  if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB3Fase1,yMinBFase1,larguraB3Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Sacro",xMinB3Fase1+18,yMinBFase1+30)
+  
+  if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
+      fill("#CBC1F5");
+    }else{
+      noFill();
+    }
+  
+  stroke("#A74CE0");
+  rect(xMinBvoltar,yMinBvoltar,larguraBvoltar,alturaBvoltar,10)
+  fill("#000000");
+  textSize(20);
+  noStroke();
+  textFont('cursive');
+  text("Menu",xMinBvoltar+9,yMinBvoltar+25);
+  
+}
+
+function fase12(){
+  background("#FFE471");
+  textSize(27);
+  fill(10);
+  fill("#7817FF");
+  text("Fase 12",278,50);
+  textSize(25);
+  fill("#000000");
+  text("Qual o nome desse osso?",170,80);
+  image(imgcalcaneo,160,100,310,220);
+  
+  if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB1Fase1,yMinBFase1,larguraB1Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Calcâneo",xMinB1Fase1+4,yMinBFase1+30);
+  
+  if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB2Fase1,yMinBFase1,larguraB2Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(22);
+  noStroke();
+  textFont('cursive');
+  text("Calcanhar",xMinB2Fase1,yMinBFase1+30);
+  
+  if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB3Fase1,yMinBFase1,larguraB3Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Tarso",xMinB3Fase1+18,yMinBFase1+30)
+  
+  if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
+      fill("#CBC1F5");
+    }else{
+      noFill();
+    }
+  
+  stroke("#A74CE0");
+  rect(xMinBvoltar,yMinBvoltar,larguraBvoltar,alturaBvoltar,10)
+  fill("#000000");
+  textSize(20);
+  noStroke();
+  textFont('cursive');
+  text("Menu",xMinBvoltar+9,yMinBvoltar+25);
+  
+}
+
+function fase13(){
+  background("#FFE471");
+  textSize(27);
+  fill(10);
+  fill("#7817FF");
+  text("Fase 13",278,50);
+  textSize(25);
+  fill("#000000");
+  text("Qual o nome desse osso?",170,80);
+  image(imgmaxila,160,100,310,220);
+  
+  if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB1Fase1,yMinBFase1,larguraB1Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Maxila",xMinB1Fase1+15,yMinBFase1+30);
+  
+  if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB2Fase1,yMinBFase1,larguraB2Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(19);
+  noStroke();
+  textFont('cursive');
+  text("Zigomático",xMinB2Fase1+1.8,yMinBFase1+30);
+  
+  if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB3Fase1,yMinBFase1,larguraB3Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Frontal",xMinB3Fase1+12,yMinBFase1+30)
+  
+  if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
+      fill("#CBC1F5");
+    }else{
+      noFill();
+    }
+  
+  stroke("#A74CE0");
+  rect(xMinBvoltar,yMinBvoltar,larguraBvoltar,alturaBvoltar,10)
+  fill("#000000");
+  textSize(20);
+  noStroke();
+  textFont('cursive');
+  text("Menu",xMinBvoltar+9,yMinBvoltar+25);
+  
+}
+
+function fase14(){
+  background("#FFE471");
+  textSize(27);
+  fill(10);
+  fill("#7817FF");
+  text("Fase 14",278,50);
+  textSize(25);
+  fill("#000000");
+  text("Qual o nome desse osso?",170,80);
+  image(imgcoccix,90,100,470,220);
+  
+  if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB1Fase1,yMinBFase1,larguraB1Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Ílio",xMinB1Fase1+30,yMinBFase1+30);
+  
+  if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB2Fase1,yMinBFase1,larguraB2Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Sacro",xMinB2Fase1+18,yMinBFase1+30);
+  
+  if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB3Fase1,yMinBFase1,larguraB3Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Cóccix",xMinB3Fase1+16,yMinBFase1+30)
+  
+  if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
+      fill("#CBC1F5");
+    }else{
+      noFill();
+    }
+  
+  stroke("#A74CE0");
+  rect(xMinBvoltar,yMinBvoltar,larguraBvoltar,alturaBvoltar,10)
+  fill("#000000");
+  textSize(20);
+  noStroke();
+  textFont('cursive');
+  text("Menu",xMinBvoltar+9,yMinBvoltar+25);
+  
+}
+
+function fase15(){
+  background("#FFE471");
+  textSize(27);
+  fill(10);
+  fill("#7817FF");
+  text("Fase 15",278,50);
+  textSize(25);
+  fill("#000000");
+  text("Qual o nome desse osso?",170,80);
+  image(imghioide,160,100,310,220);
+  
+  if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB1Fase1,yMinBFase1,larguraB1Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(22);
+  noStroke();
+  textFont('cursive');
+  text("Faringe",xMinB1Fase1+12,yMinBFase1+30);
+  
+  if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB2Fase1-9,yMinBFase1,larguraB2Fase1+15,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Falange",xMinB2Fase1+9.5,yMinBFase1+30);
+  
+  if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      fill("#CBC1F5");
+  }else{noFill();}
+  
+  stroke("#A74CE0");
+  rect(xMinB3Fase1,yMinBFase1,larguraB3Fase1,alturaBFase1,10);
+  fill("#000000");
+  textSize(23);
+  noStroke();
+  textFont('cursive');
+  text("Hioide",xMinB3Fase1+16,yMinBFase1+30)
+  
+  if(mouseX>xMinBvoltar && mouseX <xMaxBvoltar && mouseY>yMinBvoltar && mouseY <yMaxBvoltar){
+      fill("#CBC1F5");
+    }else{
+      noFill();
+    }
+  
+  stroke("#A74CE0");
+  rect(xMinBvoltar,yMinBvoltar,larguraBvoltar,alturaBvoltar,10)
+  fill("#000000");
+  textSize(20);
+  noStroke();
+  textFont('cursive');
+  text("Menu",xMinBvoltar+9,yMinBvoltar+25);
+  
+}
+
+
 function preload(){
   imgnossosossos = loadImage("Nossos Ossos.png");
   imagemlorrany = loadImage("lorrany.png");
@@ -981,6 +1305,13 @@ function preload(){
   imgulna=loadImage("ulna.png")
   imgfibula=loadImage("fibula.png")
   imgmandibula=loadImage("mandibula.png")
+  imgsacro=loadImage("sacro.png")
+  imgcalcaneo=loadImage("calcaneo.png")
+  imgmaxila=loadImage("maxila.png")
+  imgcoccix=loadImage("coccix.png")
+  imghioide=loadImage("hioide.png")
+  
+  
   correctsound=loadSound("correctsong.mp3")
   backgroundmusic=loadSound("backgroundmusic.mp3")
   imgendgame=loadImage("endgame.png")
@@ -1011,7 +1342,11 @@ if(tela==3){
   if(nivel==8){fase8()}
   if(nivel==9){fase9()}
   if(nivel==10){fase10()}
-
+  if(nivel==11){fase11()}
+  if(nivel==12){fase12()}
+  if(nivel==13){fase13()}
+  if(nivel==14){fase14()}
+  if(nivel==15){fase15()}
 }
 if(tela==4){respostaerrada()}
 if(tela==5){respostacerta()}
@@ -1266,15 +1601,130 @@ function mouseClicked(){
       wrongSound();
       }
       if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
-      console.log("next fase 10")
-      tela=6;
-      endgameMusic();
+      console.log("next fase 11")
+      tela=5;
+      correctSound();
  
       }
       if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
       console.log("tela resposta errada")
       tela=4;
       wrongSound();
+      }
+    } 
+  }
+  if(tela==3){
+     if(nivel==11){
+      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
+      console.log("Botão Voltar Menu")   
+      tela = 0;
+      }
+      if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }
+      if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }   
+      if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("next fase 12")
+      tela=5;
+      correctSound();
+      }
+    } 
+  }
+  if(tela==3){
+     if(nivel==12){
+      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
+      console.log("Botão Voltar Menu")   
+      tela = 0;
+      }
+      if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("next fase 13")
+      tela=5;
+      correctSound();
+      }
+      if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }   
+      if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }
+    }
+  }
+  if(tela==3){
+    if(nivel==13){
+      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
+      console.log("Botão Voltar Menu")   
+      tela = 0;
+      }
+      if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("next fase 14")
+      tela=5;
+      correctSound();
+      }
+      if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }   
+      if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }
+    }
+  }
+  if(tela==3){
+    if(nivel==14){
+      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
+      console.log("Botão Voltar Menu")   
+      tela = 0;
+      }
+      if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }
+      if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }   
+      if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("next fase 15")
+      tela=5;
+      correctSound()  
+      }
+    } 
+  }
+  if(tela==3){
+     if(nivel==15){
+      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
+      console.log("Botão Voltar Menu")   
+      tela = 0;
+      }
+      if(mouseX>xMinB1Fase1 && mouseX <xMaxB1Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }
+      if(mouseX>xMinB2Fase1 && mouseX <xMaxB2Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("tela resposta errada")
+      tela=4;
+      wrongSound();
+      }   
+      if(mouseX>xMinB3Fase1 && mouseX <xMaxB3Fase1 && mouseY>yMinBFase1 && mouseY <yMaxBFase1){
+      console.log("parabéns")
+      tela=6;
+      endgameMusic();
       }
     } 
   }
@@ -1333,7 +1783,33 @@ function mouseClicked(){
     if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
       console.log("Botão tentar novamente p fase 10")   
       tela = 3
-      nivel = 10}}  
+      nivel = 10}}
+    if(nivel==11){
+    if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
+      console.log("Botão tentar novamente p fase 11")   
+      tela = 3
+      nivel = 11}            
+}
+    if(nivel==12){
+    if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
+      console.log("Botão tentar novamente p fase 12")   
+      tela = 3
+      nivel = 12}} 
+    if(nivel==13){
+    if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
+      console.log("Botão tentar novamente p fase 13")   
+      tela = 3
+      nivel = 13}}   
+    if(nivel==14){
+    if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
+      console.log("Botão tentar novamente p fase 14")   
+      tela = 3
+      nivel = 14}} 
+    if(nivel==15){
+    if(mouseX>xMinAgain && mouseX <xMaxAgain && mouseY>yMinAgain && mouseY <yMaxAgain){
+      console.log("Botão tentar novamente p fase 15")   
+      tela = 3
+      nivel =15}}  
     
   }
   
@@ -1400,7 +1876,42 @@ function mouseClicked(){
       tela = 3
       nivel = 10}    
 }}
- 
+  if(tela==5){
+    if(nivel==10){
+    if(mouseX>xMinNext && mouseX <xMaxNext && mouseY>yMinNext && mouseY <yMaxNext){
+      console.log("próxima fase 11")   
+      tela = 3
+      nivel = 11}    
+}}
+  if(tela==5){
+    if(nivel==11){
+    if(mouseX>xMinNext && mouseX <xMaxNext && mouseY>yMinNext && mouseY <yMaxNext){
+      console.log("próxima fase 12")   
+      tela = 3
+      nivel = 12}    
+}}
+  if(tela==5){
+    if(nivel==12){
+    if(mouseX>xMinNext && mouseX <xMaxNext && mouseY>yMinNext && mouseY <yMaxNext){
+      console.log("próxima fase 13")   
+      tela = 3
+      nivel = 13}    
+}}
+  if(tela==5){
+    if(nivel==13){
+    if(mouseX>xMinNext && mouseX <xMaxNext && mouseY>yMinNext && mouseY <yMaxNext){
+      console.log("próxima fase 14")   
+      tela = 3
+      nivel = 14}    
+}}
+  if(tela==5){
+    if(nivel==14){
+    if(mouseX>xMinNext && mouseX <xMaxNext && mouseY>yMinNext && mouseY <yMaxNext){
+      console.log("próxima fase 15")   
+      tela = 3
+      nivel = 15}
+}}
+  
   if(tela==6){
      if(mouseY>yMinBvoltar && mouseY<yMaxBvoltar && mouseX>xMinBvoltar && mouseX<xMaxBvoltar){
       console.log("Botão Voltar Menu")   
@@ -1410,9 +1921,3 @@ function mouseClicked(){
       }
   }
 }
-  
-
-
-
-
-
